@@ -619,11 +619,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2948749107260933202, guid: b0c95e1893e8eeb42aabb4f29da54d6b,
         type: 3}
-      propertyPath: _triggerOn
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2948749107260933202, guid: b0c95e1893e8eeb42aabb4f29da54d6b,
-        type: 3}
       propertyPath: points.Array.data[0]
       value: 
       objectReference: {fileID: 492970736}
@@ -686,16 +681,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2948749108515798178, guid: b0c95e1893e8eeb42aabb4f29da54d6b,
-        type: 3}
-      propertyPath: _displayGizmos
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2948749108515798178, guid: b0c95e1893e8eeb42aabb4f29da54d6b,
-        type: 3}
-      propertyPath: _showOnlyWhileSelected
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2948749108515798178, guid: b0c95e1893e8eeb42aabb4f29da54d6b,
         type: 3}

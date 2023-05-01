@@ -245,3 +245,4 @@ MonoBehaviour:
   _displayGizmos: 1
   _showOnlyWhileSelected: 1
   _gizmoColor: {r: 0.061110973, g: 1, b: 0, a: 0.6392157}
+  _specificTriggerObject: {fileID: 0}
