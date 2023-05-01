@@ -29,10 +29,19 @@ public class TriggerVolume : MonoBehaviour
     [SerializeField]
     private Color _gizmoColor = Color.green;
 
+    [Header("Filters")]
+    [SerializeField]
+    private GameObject _specificTriggerObject = null;
+
 
     private void OnTriggerEnter(Collider other)
     {
         OnEnterTrigger.Invoke();
+
+        if(_specificTriggerObject != null && other.gameObject != _specificTriggerObject)
+        {
+            return;
+        }
     }
 
     private void OnDrawGizmos()
@@ -72,10 +81,4 @@ public class TriggerVolume : MonoBehaviour
         Gizmos.color = _gizmoColor;
         Gizmos.DrawCube(transform.position, _collider.bounds.size);
     }
-    
-    
-    //public void triggerActive()
-    //{
-    //   gameObject.SetActive(true);
-    //}
 }
